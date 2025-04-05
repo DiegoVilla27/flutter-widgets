@@ -1,20 +1,349 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets/presentation/shared/menu/models/menu_item.dart';
 
-/// A constant list of `MenuItem` objects representing different menu options.
-/// 
-/// Each `MenuItem` includes a title, subtitle, navigation path, and an icon.
-const List<MenuItem> menu = [
-  MenuItem(
-    title: "Botones", 
-    subtitle: "Varios botones", 
-    path: "/buttons", 
-    icon: Icons.smart_button_outlined
-  ),
-  MenuItem(
-    title: "Tarjetas", 
-    subtitle: "Contenedor estilizado", 
-    path: "/cards", 
-    icon: Icons.credit_card
-  )
-];
+// constant list of `MenuItem` objects representing different menu options.
+Map<String, List<MenuItem>> menu = {
+  "Curso": [
+    MenuItem(
+      title: "Botones",
+      subtitle: "Botones varios",
+      path: "/cards",
+      icon: Icons.smart_button_outlined,
+    ),
+    MenuItem(
+      title: "Tarjetas",
+      subtitle: "Contenedor estilizado",
+      path: "/cards",
+      icon: Icons.credit_card,
+    ),
+  ],
+  "Layouts": [
+    MenuItem(
+      title: "Center",
+      subtitle: "How to use Center Widget",
+      path: "/center",
+      icon: Icons.center_focus_weak,
+    ),
+    MenuItem(
+      title: "Align",
+      subtitle: "How to use Align Widget",
+      path: "/align",
+      icon: Icons.align_horizontal_center,
+    ),
+    MenuItem(
+      title: "Container",
+      subtitle: "How to use Container Widget",
+      path: "/container",
+      icon: Icons.inbox,
+    ),
+    MenuItem(
+      title: "Padding",
+      subtitle: "How to use Padding Widget",
+      path: "/padding",
+      icon: Icons.padding,
+    ),
+    MenuItem(
+      title: "Transform",
+      subtitle: "How to use Transform Widget",
+      path: "/transform",
+      icon: Icons.transform,
+    ),
+    MenuItem(
+      title: "SizedBox",
+      subtitle: "How to use SizedBox Widget",
+      path: "/sizedbox",
+      icon: Icons.border_all,
+    ),
+    MenuItem(
+      title: "Column",
+      subtitle: "How to use Column Widget",
+      path: "/column",
+      icon: Icons.view_column,
+    ),
+    MenuItem(
+      title: "Row",
+      subtitle: "How to use Row Widget",
+      path: "/row",
+      icon: Icons.splitscreen_rounded,
+    ),
+    MenuItem(
+      title: "Stack",
+      subtitle: "How to use Stack Widget",
+      path: "/stack",
+      icon: Icons.layers,
+    ),
+    MenuItem(
+      title: "Expanded",
+      subtitle: "How to use Expanded Widget",
+      path: "/expanded",
+      icon: Icons.expand,
+    ),
+    MenuItem(
+      title: "GridView",
+      subtitle: "How to use GridView Widget",
+      path: "/gridview",
+      icon: Icons.grid_on,
+    ),
+    MenuItem(
+      title: "ListView",
+      subtitle: "How to use ListView Widget",
+      path: "/listview",
+      icon: Icons.view_list,
+    ),
+    MenuItem(
+      title: "ListTile",
+      subtitle: "How to use ListTile Widget",
+      path: "/listtile",
+      icon: Icons.view_comfortable,
+    ),
+    MenuItem(
+      title: "Wrap",
+      subtitle: "How to use Wrap Widget",
+      path: "/wrap",
+      icon: Icons.wrap_text,
+    ),
+    MenuItem(
+      title: "Table",
+      subtitle: "How to use Table Widget",
+      path: "/table",
+      icon: Icons.table_chart,
+    ),
+  ],
+  "Containers": [
+    MenuItem(
+      title: "ConstrainedBox",
+      subtitle: "How to use ConstrainedBox Widget",
+      path: "/constrainedbox",
+      icon: Icons.dashboard,
+    ),
+    MenuItem(
+      title: "DecoratedBox",
+      subtitle: "How to use DecoratedBox Widget",
+      path: "/decoratedbox",
+      icon: Icons.border_outer,
+    ),
+    MenuItem(
+      title: "LimitedBox",
+      subtitle: "How to use LimitedBox Widget",
+      path: "/limitedbox",
+      icon: Icons.satellite,
+    ),
+    MenuItem(
+      title: "AbsorbPointer",
+      subtitle: "How to use AbsorbPointer Widget",
+      path: "/absorbpointer",
+      icon: Icons.touch_app,
+    ),
+    MenuItem(
+      title: "IgnorePointer",
+      subtitle: "How to use IgnorePointer Widget",
+      path: "/ignorepointer",
+      icon: Icons.not_interested,
+    ),
+  ],
+  "Input & Interaction": [
+    MenuItem(
+      title: "Form",
+      subtitle: "How to use Form Widget",
+      path: "/form",
+      icon: Icons.document_scanner,
+    ),
+    MenuItem(
+      title: "FormField",
+      subtitle: "How to use FormField Widget",
+      path: "/formfield",
+      icon: Icons.text_fields,
+    ),
+    MenuItem(
+      title: "Radio",
+      subtitle: "How to use Radio Widget",
+      path: "/radio",
+      icon: Icons.radio_button_checked,
+    ),
+    MenuItem(
+      title: "RadioListTile",
+      subtitle: "How to use RadioListTile Widget",
+      path: "/radiolisttile",
+      icon: Icons.radio_button_unchecked,
+    ),
+    MenuItem(
+      title: "TextField",
+      subtitle: "How to use TextField Widget",
+      path: "/textfield",
+      icon: Icons.text_fields,
+    ),
+    MenuItem(
+      title: "TextFormField",
+      subtitle: "How to use TextFormField Widget",
+      path: "/textformfield",
+      icon: Icons.edit,
+    ),
+    MenuItem(
+      title: "Checkbox",
+      subtitle: "How to use Checkbox Widget",
+      path: "/checkbox",
+      icon: Icons.check_box,
+    ),
+    MenuItem(
+      title: "Switch",
+      subtitle: "How to use Switch Widget",
+      path: "/switch",
+      icon: Icons.switch_left,
+    ),
+    MenuItem(
+      title: "Slider",
+      subtitle: "How to use Slider Widget",
+      path: "/slider",
+      icon: Icons.slideshow,
+    ),
+    MenuItem(
+      title: "RangeSlider",
+      subtitle: "How to use RangeSlider Widget",
+      path: "/rangeslider",
+      icon: Icons.date_range,
+    ),
+  ],
+  "Animations & Effects": [
+    MenuItem(
+      title: "AnimatedOpacity",
+      subtitle: "How to use AnimatedOpacity Widget",
+      path: "/animatedopacity",
+      icon: Icons.opacity,
+    ),
+    MenuItem(
+      title: "SlideTransition",
+      subtitle: "How to use SlideTransition Widget",
+      path: "/slidetransition",
+      icon: Icons.slideshow,
+    ),
+    MenuItem(
+      title: "ScaleTransition",
+      subtitle: "How to use ScaleTransition Widget",
+      path: "/scaletransition",
+      icon: Icons.zoom_in,
+    ),
+    MenuItem(
+      title: "RotationTransition",
+      subtitle: "How to use RotationTransition Widget",
+      path: "/rotationtransition",
+      icon: Icons.rotate_right,
+    ),
+    MenuItem(
+      title: "AnimatedSwitcher",
+      subtitle: "How to use AnimatedSwitcher Widget",
+      path: "/animatedswitcher",
+      icon: Icons.switch_video,
+    ),
+    MenuItem(
+      title: "AnimatedPositioned",
+      subtitle: "How to use AnimatedPositioned Widget",
+      path: "/animatedpositioned",
+      icon: Icons.animation,
+    ),
+    MenuItem(
+      title: "FadeTransition",
+      subtitle: "How to use FadeTransition Widget",
+      path: "/fadetransition",
+      icon: Icons.change_circle,
+    ),
+    MenuItem(
+      title: "SizeTransition",
+      subtitle: "How to use SizeTransition Widget",
+      path: "/sizetransition",
+      icon: Icons.fullscreen,
+    ),
+    MenuItem(
+      title: "AnimatedContainer",
+      subtitle: "How to use AnimatedContainer Widget",
+      path: "/animatedcontainer",
+      icon: Icons.animation,
+    ),
+  ],
+  "Miscellaneous": [
+    MenuItem(
+      title: "Hero",
+      subtitle: "How to use Hero Widget",
+      path: "/hero",
+      icon: Icons.supervised_user_circle,
+    ),
+    MenuItem(
+      title: "DrawerHeader",
+      subtitle: "How to use DrawerHeader Widget",
+      path: "/drawerheader",
+      icon: Icons.menu,
+    ),
+    MenuItem(
+      title: "SnackBar",
+      subtitle: "How to use SnackBar Widget",
+      path: "/snackbar",
+      icon: Icons.message,
+    ),
+    MenuItem(
+      title: "Tooltip",
+      subtitle: "How to use Tooltip Widget",
+      path: "/tooltip",
+      icon: Icons.info_outline,
+    ),
+    MenuItem(
+      title: "ScrollController",
+      subtitle: "How to use ScrollController Widget",
+      path: "/scrollcontroller",
+      icon: Icons.refresh,
+    ),
+    MenuItem(
+      title: "BottomSheet",
+      subtitle: "How to use BottomSheet Widget",
+      path: "/bottomsheet",
+      icon: Icons.arrow_drop_up,
+    ),
+    MenuItem(
+      title: "Dialog",
+      subtitle: "How to use Dialog Widget",
+      path: "/dialog",
+      icon: Icons.message,
+    ),
+    MenuItem(
+      title: "AlertDialog",
+      subtitle: "How to use AlertDialog Widget",
+      path: "/alertdialog",
+      icon: Icons.warning,
+    ),
+    MenuItem(
+      title: "SimpleDialog",
+      subtitle: "How to use SimpleDialog Widget",
+      path: "/simpledialog",
+      icon: Icons.question_answer,
+    ),
+    MenuItem(
+      title: "Drawer",
+      subtitle: "How to use Drawer Widget",
+      path: "/drawer",
+      icon: Icons.menu_open,
+    ),
+    MenuItem(
+      title: "TabBar & TabBarView",
+      subtitle: "How to use TabBar & TabBarView Widgets",
+      path: "/tabbar",
+      icon: Icons.tab,
+    ),
+    MenuItem(
+      title: "BottomNavigationBar",
+      subtitle: "How to use BottomNavigationBar Widget",
+      path: "/bottomnavigationbar",
+      icon: Icons.navigation,
+    ),
+    MenuItem(
+      title: "PageView",
+      subtitle: "How to use PageView Widget",
+      path: "/pageview",
+      icon: Icons.view_carousel,
+    ),
+    MenuItem(
+      title: "Scaffold",
+      subtitle: "How to use Scaffold Widget",
+      path: "/scaffold",
+      icon: Icons.home,
+    ),
+  ],
+};
+
