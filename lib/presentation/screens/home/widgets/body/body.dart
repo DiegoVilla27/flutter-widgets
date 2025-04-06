@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets/presentation/shared/menu/data/menu_data.dart';
 
-class BodyHomeScreen extends StatelessWidget {
-  const BodyHomeScreen({super.key});
+class Body extends StatelessWidget {
+  const Body({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,7 @@ class BodyHomeScreen extends StatelessWidget {
                   Icons.keyboard_arrow_right,
                   color: colors.primary,
                 ),
-                onTap: () {},
+                onTap: () => Navigator.pushNamed(context, subitem.path),
               );
             }),
             Divider(),

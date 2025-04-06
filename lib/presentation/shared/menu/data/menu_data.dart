@@ -7,7 +7,7 @@ Map<String, List<MenuItem>> menu = {
     MenuItem(
       title: "Botones",
       subtitle: "Botones varios",
-      path: "/cards",
+      path: "/buttons",
       icon: Icons.smart_button_outlined,
     ),
     MenuItem(
