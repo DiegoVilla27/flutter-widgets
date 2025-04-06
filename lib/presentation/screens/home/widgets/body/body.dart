@@ -31,7 +31,7 @@ class Body extends StatelessWidget {
                   Icons.keyboard_arrow_right,
                   color: colors.primary,
                 ),
-                onTap: () => context.go(subitem.path),
+                onTap: () => context.push(subitem.path),
               );
             }),
             Divider(),
