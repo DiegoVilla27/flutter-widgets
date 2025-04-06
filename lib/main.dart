@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets/core/theme/theme.dart';
-import 'package:flutter_widgets/presentation/routes/routes.dart';
+import 'package:flutter_widgets/core/routes/routes.dart';
 
 void main() {
   runApp(const MainApp());
@@ -11,11 +11,10 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
       debugShowCheckedModeBanner: false,
       theme: ThemeCustom().get(),
-      initialRoute: AppRoutes.home,
-      routes: AppRoutes.routes,
+      routerConfig: AppRoutes.router,
     );
   }
 }
