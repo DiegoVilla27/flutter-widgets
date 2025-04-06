@@ -6,17 +6,23 @@ import 'package:flutter/material.dart';
 /// This widget displays an AppBar with a centered title 'Home Screen'.
 /// It is designed to be used as the app bar for the home screen of the
 /// application.
-class AppBarHome extends StatelessWidget implements PreferredSizeWidget {
-  const AppBarHome({super.key});
+class AppBarCustom extends StatelessWidget implements PreferredSizeWidget {
+
+  final String title;
+
+  const AppBarCustom({super.key, required this.title});
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context).colorScheme;
+
     return AppBar(
-      title: Text('Home Screen'),
+      title: Text(title),
       centerTitle: true,
+      backgroundColor: theme.onPrimary,
     );
   }
-  
+
   @override
   Size get preferredSize => Size.fromHeight(kToolbarHeight);
 }

@@ -1,22 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/presentation/shared/menu/models/menu_item.dart';
+import 'package:flutter_widgets/core/menu/models/menu_item.dart';
 
 // constant list of `MenuItem` objects representing different menu options.
 Map<String, List<MenuItem>> menu = {
-  "Curso": [
-    MenuItem(
-      title: "Botones",
-      subtitle: "Botones varios",
-      path: "/buttons",
-      icon: Icons.smart_button_outlined,
-    ),
-    MenuItem(
-      title: "Tarjetas",
-      subtitle: "Contenedor estilizado",
-      path: "/cards",
-      icon: Icons.credit_card,
-    ),
-  ],
   "Layouts": [
     MenuItem(
       title: "Center",
@@ -31,12 +17,6 @@ Map<String, List<MenuItem>> menu = {
       icon: Icons.align_horizontal_center,
     ),
     MenuItem(
-      title: "Container",
-      subtitle: "How to use Container Widget",
-      path: "/container",
-      icon: Icons.inbox,
-    ),
-    MenuItem(
       title: "Padding",
       subtitle: "How to use Padding Widget",
       path: "/padding",
@@ -47,12 +27,6 @@ Map<String, List<MenuItem>> menu = {
       subtitle: "How to use Transform Widget",
       path: "/transform",
       icon: Icons.transform,
-    ),
-    MenuItem(
-      title: "SizedBox",
-      subtitle: "How to use SizedBox Widget",
-      path: "/sizedbox",
-      icon: Icons.border_all,
     ),
     MenuItem(
       title: "Column",
@@ -110,6 +84,24 @@ Map<String, List<MenuItem>> menu = {
     ),
   ],
   "Containers": [
+    MenuItem(
+      title: "Container",
+      subtitle: "How to use Container Widget",
+      path: "/container",
+      icon: Icons.inbox,
+    ),
+    MenuItem(
+      title: "SizedBox",
+      subtitle: "How to use SizedBox Widget",
+      path: "/sizedbox",
+      icon: Icons.border_all,
+    ),
+    MenuItem(
+      title: "Card",
+      subtitle: "How to use Card Widget",
+      path: "/cards",
+      icon: Icons.credit_card,
+    ),
     MenuItem(
       title: "ConstrainedBox",
       subtitle: "How to use ConstrainedBox Widget",
@@ -202,6 +194,12 @@ Map<String, List<MenuItem>> menu = {
       path: "/rangeslider",
       icon: Icons.date_range,
     ),
+    MenuItem(
+      title: "Buttons",
+      subtitle: "How to use Buttons Widgets",
+      path: "/buttons",
+      icon: Icons.smart_button_outlined,
+    )
   ],
   "Animations & Effects": [
     MenuItem(
