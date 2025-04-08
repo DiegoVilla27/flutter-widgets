@@ -15,7 +15,7 @@ class FABBtnContainer extends StatelessWidget {
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        Text('FAB'),
+        const Text('FAB'),
         FloatingActionButton(
           onPressed: () => context.pop(),
           child: const Icon(Icons.arrow_back),

@@ -13,7 +13,6 @@ class CardBasic extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.fromLTRB(15, 15, 5, 15),
         child: Row(
-          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             const Expanded(
               child: Column(

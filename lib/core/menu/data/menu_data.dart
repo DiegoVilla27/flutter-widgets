@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_widgets/core/menu/models/menu_item.dart';
 
 // constant list of `MenuItem` objects representing different menu options.
-Map<String, List<MenuItem>> menu = {
+const Map<String, List<MenuItem>> menu = {
   "Layouts": [
     MenuItem(
       title: "Center",

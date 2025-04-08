@@ -24,7 +24,6 @@ class CardBorder extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.fromLTRB(15, 15, 5, 15),
         child: Row(
-          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             const Expanded(
               child: Column(
@@ -38,7 +37,7 @@ class CardBorder extends StatelessWidget {
                 ],
               ),
             ),
-            IconButton(onPressed: () {}, icon: Icon(Icons.more_vert)),
+            IconButton(onPressed: () {}, icon: const Icon(Icons.more_vert)),
           ],
         ),
       ),
