@@ -28,8 +28,6 @@ class Layout extends StatelessWidget {
       appBar: appBar,
       body: SafeArea(
         child: Container(
-          height: double.infinity,
-          width: double.infinity,
           padding: const EdgeInsets.all(20),
           child: child,
         ),

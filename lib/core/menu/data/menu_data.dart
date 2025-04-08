@@ -325,10 +325,16 @@ Map<String, List<MenuItem>> menu = {
       icon: Icons.tab,
     ),
     MenuItem(
+      title: "App Bar",
+      subtitle: "How to use AppBar Widget",
+      path: "/appbar",
+      icon: Icons.arrow_upward,
+    ),
+    MenuItem(
       title: "BottomNavigationBar",
       subtitle: "How to use BottomNavigationBar Widget",
       path: "/bottomnavigationbar",
-      icon: Icons.navigation,
+      icon: Icons.arrow_downward,
     ),
     MenuItem(
       title: "PageView",
