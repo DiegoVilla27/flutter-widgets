@@ -259,6 +259,18 @@ const Map<String, List<MenuItem>> menu = {
   ],
   "Miscellaneous": [
     MenuItem(
+      title: "Infinite Scroll",
+      subtitle: "How to use Infinite Scroll Widget",
+      path: "/infinitescroll",
+      icon: Icons.all_inclusive,
+    ),
+    MenuItem(
+      title: "Progress",
+      subtitle: "How to use Progress Widget",
+      path: "/progress",
+      icon: Icons.pending,
+    ),
+    MenuItem(
       title: "Hero",
       subtitle: "How to use Hero Widget",
       path: "/hero",

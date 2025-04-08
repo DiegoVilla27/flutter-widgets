@@ -1,3 +1,4 @@
+import 'package:flutter_widgets/presentation/screens/progress/progress_screen.dart';
 import 'package:flutter_widgets/presentation/screens/screens.dart';
 import 'package:go_router/go_router.dart';
 
@@ -10,6 +11,7 @@ class AppRoutes {
   static const String home = '/';
   static const String buttons = '/buttons';
   static const String cards = '/cards';
+  static const String progress = '/progress';
 
   static final GoRouter router = GoRouter(
     initialLocation: home,
@@ -17,6 +19,7 @@ class AppRoutes {
       GoRoute(path: home, builder: (_, _) => const HomeScreen()),
       GoRoute(path: buttons, builder: (_, _) => const ButtonsScreen()),
       GoRoute(path: cards, builder: (_, _) => const CardsScreen()),
+      GoRoute(path: progress, builder: (_, _) => const ProgressScreen()),
     ],
   );
 }
