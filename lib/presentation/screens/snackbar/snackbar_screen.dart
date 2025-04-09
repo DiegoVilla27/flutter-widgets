@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets/presentation/shared/widgets/appbar/appbar.dart';
 import 'package:flutter_widgets/presentation/shared/widgets/layout/layout.dart';
-import 'package:flutter_widgets/presentation/shared/widgets/snackbar/snackbar.dart';
+import 'package:flutter_widgets/presentation/screens/snackbar/utils/snackbar.dart';
 
 /// A stateless widget that displays a screen with a custom app bar and a button
 /// to open a snackbar.

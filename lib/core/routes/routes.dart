@@ -13,6 +13,7 @@ class AppRoutes {
   static const String cards = '/cards';
   static const String progress = '/progress';
   static const String snackbar = '/snackbar';
+  static const String dialog = '/dialog';
 
   static final GoRouter router = GoRouter(
     initialLocation: home,
@@ -22,6 +23,7 @@ class AppRoutes {
       GoRoute(path: cards, builder: (_, _) => const CardsScreen()),
       GoRoute(path: progress, builder: (_, _) => const ProgressScreen()),
       GoRoute(path: snackbar, builder: (_, _) => const SnackbarScreen()),
+      GoRoute(path: dialog, builder: (_, _) => const DialogScreen()),
     ],
   );
 }

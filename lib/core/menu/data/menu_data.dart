@@ -313,18 +313,6 @@ const Map<String, List<MenuItem>> menu = {
       icon: Icons.message,
     ),
     MenuItem(
-      title: "AlertDialog",
-      subtitle: "How to use AlertDialog Widget",
-      path: "/alertdialog",
-      icon: Icons.warning,
-    ),
-    MenuItem(
-      title: "SimpleDialog",
-      subtitle: "How to use SimpleDialog Widget",
-      path: "/simpledialog",
-      icon: Icons.question_answer,
-    ),
-    MenuItem(
       title: "Drawer",
       subtitle: "How to use Drawer Widget",
       path: "/drawer",
