@@ -271,6 +271,12 @@ const Map<String, List<MenuItem>> menu = {
       icon: Icons.pending,
     ),
     MenuItem(
+      title: "Expansion",
+      subtitle: "How to use Expansion Widget",
+      path: "/expansion",
+      icon: Icons.group_work,
+    ),
+    MenuItem(
       title: "Hero",
       subtitle: "How to use Hero Widget",
       path: "/hero",
