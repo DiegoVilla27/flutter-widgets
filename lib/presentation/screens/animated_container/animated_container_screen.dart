@@ -15,9 +15,9 @@ class AnimatedContainerScreen extends StatefulWidget {
 }
 
 class _AnimatedContainerScreenState extends State<AnimatedContainerScreen> {
-  bool isSelected = false;
+  bool _isSelected = false;
 
-  _toggle() => setState(() => isSelected = !isSelected);
+  _toggle() => setState(() => _isSelected = !_isSelected);
 
   @override
   Widget build(BuildContext context) {
@@ -33,9 +33,9 @@ class _AnimatedContainerScreenState extends State<AnimatedContainerScreen> {
             borderRadius: BorderRadius.circular(15.0),
             child: AnimatedContainer(
               duration: const Duration(milliseconds: 500),
-              width: isSelected ? 200.0 : size.width,
-              height: isSelected ? 200.0 : size.height,
-              color: isSelected ? Colors.black54 : theme.onPrimary,
+              width: _isSelected ? 200.0 : size.width,
+              height: _isSelected ? 200.0 : size.height,
+              color: _isSelected ? Colors.black54 : theme.onPrimary,
               curve: Curves.easeInOut,
               child: const Padding(
                 padding: EdgeInsets.all(8.0),
