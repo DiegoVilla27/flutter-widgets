@@ -147,16 +147,10 @@ const Map<String, List<MenuItem>> menu = {
       icon: Icons.text_fields,
     ),
     MenuItem(
-      title: "Radio",
-      subtitle: "How to use Radio Widget",
-      path: "/radio",
+      title: "Radios",
+      subtitle: "How to use Radios Widgets",
+      path: "/radios",
       icon: Icons.radio_button_checked,
-    ),
-    MenuItem(
-      title: "RadioListTile",
-      subtitle: "How to use RadioListTile Widget",
-      path: "/radiolisttile",
-      icon: Icons.radio_button_unchecked,
     ),
     MenuItem(
       title: "TextField",
