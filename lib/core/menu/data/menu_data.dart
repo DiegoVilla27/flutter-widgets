@@ -171,8 +171,8 @@ const Map<String, List<MenuItem>> menu = {
       icon: Icons.check_box,
     ),
     MenuItem(
-      title: "Switch",
-      subtitle: "How to use Switch Widget",
+      title: "Switches",
+      subtitle: "How to use Switches Widget",
       path: "/switch",
       icon: Icons.switch_left,
     ),

@@ -7,3 +7,4 @@ export 'package:flutter_widgets/presentation/screens/animated_container/animated
 export 'package:flutter_widgets/presentation/screens/checkbox/checkbox_screen.dart';
 export 'package:flutter_widgets/presentation/screens/expansion/expansion_screen.dart';
 export 'package:flutter_widgets/presentation/screens/radios/radios_screen.dart';
+export 'package:flutter_widgets/presentation/screens/switches/switches_screen.dart';

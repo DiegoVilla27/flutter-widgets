@@ -18,6 +18,7 @@ class AppRoutes {
   static const String checkbox = '/checkbox';
   static const String expansion = '/expansion';
   static const String radios = '/radios';
+  static const String switches = '/switch';
 
   static final GoRouter router = GoRouter(
     initialLocation: home,
@@ -32,6 +33,7 @@ class AppRoutes {
       GoRoute(path: checkbox, builder: (_, _) => const CheckboxScreen()),
       GoRoute(path: expansion, builder: (_, _) => const ExpansionScreen()),
       GoRoute(path: radios, builder: (_, _) => const RadiosScreen()),
+      GoRoute(path: switches, builder: (_, _) => const SwitchesScreen()),
     ],
   );
 }
