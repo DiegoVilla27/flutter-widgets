@@ -16,6 +16,7 @@ class AppRoutes {
   static const String dialog = '/dialog';
   static const String animatedcontainer = '/animatedcontainer';
   static const String checkbox = '/checkbox';
+  static const String expansion = '/expansion';
 
   static final GoRouter router = GoRouter(
     initialLocation: home,
@@ -28,6 +29,7 @@ class AppRoutes {
       GoRoute(path: dialog, builder: (_, _) => const DialogScreen()),
       GoRoute(path: animatedcontainer, builder: (_, _) => const AnimatedContainerScreen()),
       GoRoute(path: checkbox, builder: (_, _) => const CheckboxScreen()),
+      GoRoute(path: expansion, builder: (_, _) => const ExpansionScreen()),
     ],
   );
 }

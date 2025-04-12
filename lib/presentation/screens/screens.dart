@@ -5,3 +5,4 @@ export 'package:flutter_widgets/presentation/screens/snackbar/snackbar_screen.da
 export 'package:flutter_widgets/presentation/screens/dialog/dialog_screen.dart';
 export 'package:flutter_widgets/presentation/screens/animated_container/animated_container_screen.dart';
 export 'package:flutter_widgets/presentation/screens/checkbox/checkbox_screen.dart';
+export 'package:flutter_widgets/presentation/screens/expansion/expansion_screen.dart';
