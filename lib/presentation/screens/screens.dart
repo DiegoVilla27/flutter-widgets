@@ -11,6 +11,10 @@ export 'package:flutter_widgets/presentation/screens/switches/switches_screen.da
 export 'package:flutter_widgets/presentation/screens/pageview/pageview_screen.dart';
 export 'package:flutter_widgets/presentation/screens/listview/listview_screen.dart';
 export 'package:flutter_widgets/presentation/screens/refresh/refresh_screen.dart';
+export 'package:flutter_widgets/presentation/screens/center/center_screen.dart';
+export 'package:flutter_widgets/presentation/screens/align/align_screen.dart';
+export 'package:flutter_widgets/presentation/screens/padding/padding_screen.dart';
+export 'package:flutter_widgets/presentation/screens/transform/transform_screen.dart';
 
 // ERROR PAGE
 export 'package:flutter_widgets/presentation/screens/notfound/notfound_screen.dart';

@@ -9,6 +9,7 @@ import 'package:go_router/go_router.dart';
 /// where each route is associated with a specific screen widget.
 class AppRoutes {
   static const String home = '/';
+  static const String center = '/center';
   static const String buttons = '/buttons';
   static const String cards = '/cards';
   static const String progress = '/progress';
@@ -22,11 +23,15 @@ class AppRoutes {
   static const String pageview = '/pageview';
   static const String listview = '/listview';
   static const String refresh = '/refresh';
+  static const String align = '/align';
+  static const String padding = '/padding';
+  static const String transform = '/transform';
 
   static final GoRouter router = GoRouter(
     initialLocation: home,
     routes: <RouteBase>[
       GoRoute(path: home, builder: (_, _) => const HomeScreen()),
+      GoRoute(path: center, builder: (_, _) => const CenterScreen()),
       GoRoute(path: buttons, builder: (_, _) => const ButtonsScreen()),
       GoRoute(path: cards, builder: (_, _) => const CardsScreen()),
       GoRoute(path: progress, builder: (_, _) => const ProgressScreen()),
@@ -40,6 +45,9 @@ class AppRoutes {
       GoRoute(path: pageview, builder: (_, _) => const PageViewScreen()),
       GoRoute(path: listview, builder: (_, _) => const ListViewScreen()),
       GoRoute(path: refresh, builder: (_, _) => const RefreshScreen()),
+      GoRoute(path: align, builder: (_, _) => const AlignScreen()),
+      GoRoute(path: padding, builder: (_, _) => const PaddingScreen()),
+      GoRoute(path: transform, builder: (_, _) => const TransformScreen()),
     ],
     errorBuilder: (_, _) => const NotFoundScreen()
   );
