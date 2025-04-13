@@ -37,5 +37,6 @@ class AppRoutes {
       GoRoute(path: switches, builder: (_, _) => const SwitchesScreen()),
       GoRoute(path: pageview, builder: (_, _) => const PageViewScreen()),
     ],
+    errorBuilder: (_, _) => const NotFoundScreen()
   );
 }

@@ -9,3 +9,6 @@ export 'package:flutter_widgets/presentation/screens/expansion/expansion_screen.
 export 'package:flutter_widgets/presentation/screens/radios/radios_screen.dart';
 export 'package:flutter_widgets/presentation/screens/switches/switches_screen.dart';
 export 'package:flutter_widgets/presentation/screens/pageview/pageview_screen.dart';
+
+// ERROR PAGE
+export 'package:flutter_widgets/presentation/screens/notfound/notfound_screen.dart';
