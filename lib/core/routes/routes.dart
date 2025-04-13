@@ -19,6 +19,7 @@ class AppRoutes {
   static const String expansion = '/expansion';
   static const String radios = '/radios';
   static const String switches = '/switch';
+  static const String pageview = '/pageview';
 
   static final GoRouter router = GoRouter(
     initialLocation: home,
@@ -34,6 +35,7 @@ class AppRoutes {
       GoRoute(path: expansion, builder: (_, _) => const ExpansionScreen()),
       GoRoute(path: radios, builder: (_, _) => const RadiosScreen()),
       GoRoute(path: switches, builder: (_, _) => const SwitchesScreen()),
+      GoRoute(path: pageview, builder: (_, _) => const PageViewScreen()),
     ],
   );
 }

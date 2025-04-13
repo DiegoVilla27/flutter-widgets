@@ -8,3 +8,4 @@ export 'package:flutter_widgets/presentation/screens/checkbox/checkbox_screen.da
 export 'package:flutter_widgets/presentation/screens/expansion/expansion_screen.dart';
 export 'package:flutter_widgets/presentation/screens/radios/radios_screen.dart';
 export 'package:flutter_widgets/presentation/screens/switches/switches_screen.dart';
+export 'package:flutter_widgets/presentation/screens/pageview/pageview_screen.dart';
