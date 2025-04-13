@@ -15,6 +15,10 @@ export 'package:flutter_widgets/presentation/screens/center/center_screen.dart';
 export 'package:flutter_widgets/presentation/screens/align/align_screen.dart';
 export 'package:flutter_widgets/presentation/screens/padding/padding_screen.dart';
 export 'package:flutter_widgets/presentation/screens/transform/transform_screen.dart';
+export 'package:flutter_widgets/presentation/screens/column/column_screen.dart';
+export 'package:flutter_widgets/presentation/screens/row/row_screen.dart';
+export 'package:flutter_widgets/presentation/screens/stack/stack_screen.dart';
+export 'package:flutter_widgets/presentation/screens/expanded/expanded_screen.dart';
 
 // ERROR PAGE
 export 'package:flutter_widgets/presentation/screens/notfound/notfound_screen.dart';

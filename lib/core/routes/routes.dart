@@ -26,6 +26,10 @@ class AppRoutes {
   static const String align = '/align';
   static const String padding = '/padding';
   static const String transform = '/transform';
+  static const String column = '/column';
+  static const String row = '/row';
+  static const String stack = '/stack';
+  static const String expanded = '/expanded';
 
   static final GoRouter router = GoRouter(
     initialLocation: home,
@@ -48,6 +52,10 @@ class AppRoutes {
       GoRoute(path: align, builder: (_, _) => const AlignScreen()),
       GoRoute(path: padding, builder: (_, _) => const PaddingScreen()),
       GoRoute(path: transform, builder: (_, _) => const TransformScreen()),
+      GoRoute(path: column, builder: (_, _) => const ColumnScreen()),
+      GoRoute(path: row, builder: (_, _) => const RowScreen()),
+      GoRoute(path: stack, builder: (_, _) => const StackScreen()),
+      GoRoute(path: expanded, builder: (_, _) => const ExpandedScreen()),
     ],
     errorBuilder: (_, _) => const NotFoundScreen()
   );

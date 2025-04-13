@@ -13,13 +13,16 @@ class AlignScreen extends StatelessWidget {
 
   @override
   Widget build(_) {
-    return const Layout(
-      appBar: AppBarCustom(title: "Align"),
-      child: Align(
-        alignment: Alignment.bottomCenter,
-        child: Text(
-          "Align Item",
-          style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+    return Layout(
+      appBar: const AppBarCustom(title: "Align"),
+      child: Container(
+        color: Colors.white10,
+        child: const Align(
+          alignment: Alignment.bottomCenter,
+          child: Text(
+            "Align Bottom",
+            style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+          ),
         ),
       ),
     );
