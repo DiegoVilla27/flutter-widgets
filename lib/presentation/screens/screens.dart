@@ -10,6 +10,7 @@ export 'package:flutter_widgets/presentation/screens/radios/radios_screen.dart';
 export 'package:flutter_widgets/presentation/screens/switches/switches_screen.dart';
 export 'package:flutter_widgets/presentation/screens/pageview/pageview_screen.dart';
 export 'package:flutter_widgets/presentation/screens/listview/listview_screen.dart';
+export 'package:flutter_widgets/presentation/screens/refresh/refresh_screen.dart';
 
 // ERROR PAGE
 export 'package:flutter_widgets/presentation/screens/notfound/notfound_screen.dart';

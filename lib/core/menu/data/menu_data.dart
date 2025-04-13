@@ -259,9 +259,9 @@ const Map<String, List<MenuItem>> menu = {
       icon: Icons.photo_size_select_actual_rounded,
     ),
     MenuItem(
-      title: "Infinite Scroll",
-      subtitle: "How to use Infinite Scroll Widget",
-      path: "/infinitescroll",
+      title: "RegreshIndicator",
+      subtitle: "How to use Refresh Widget",
+      path: "/refresh",
       icon: Icons.all_inclusive,
     ),
     MenuItem(

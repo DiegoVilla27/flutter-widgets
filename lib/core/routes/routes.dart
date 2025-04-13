@@ -21,6 +21,7 @@ class AppRoutes {
   static const String switches = '/switch';
   static const String pageview = '/pageview';
   static const String listview = '/listview';
+  static const String refresh = '/refresh';
 
   static final GoRouter router = GoRouter(
     initialLocation: home,
@@ -38,6 +39,7 @@ class AppRoutes {
       GoRoute(path: switches, builder: (_, _) => const SwitchesScreen()),
       GoRoute(path: pageview, builder: (_, _) => const PageViewScreen()),
       GoRoute(path: listview, builder: (_, _) => const ListViewScreen()),
+      GoRoute(path: refresh, builder: (_, _) => const RefreshScreen()),
     ],
     errorBuilder: (_, _) => const NotFoundScreen()
   );
