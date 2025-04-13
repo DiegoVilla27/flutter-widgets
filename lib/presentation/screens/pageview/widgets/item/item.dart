@@ -1,5 +1,15 @@
 import 'package:flutter/material.dart';
 
+/// A stateless widget that displays an item with an image, title, and caption.
+/// 
+/// The [ItemPageView] widget is designed to present a visual item with a
+/// specified [title], [caption], and [url] for the image asset. It arranges
+/// these elements in a column with centered alignment and applies consistent
+/// styling to the text elements.
+/// 
+/// The [title] is displayed in bold with a larger font size, while the
+/// [caption] is shown with a lighter font weight. The image is loaded from
+/// the provided [url] and displayed at a fixed height.
 class ItemPageView extends StatelessWidget {
   final String title;
   final String caption;
