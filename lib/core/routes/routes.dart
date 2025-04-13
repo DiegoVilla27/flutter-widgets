@@ -20,6 +20,7 @@ class AppRoutes {
   static const String radios = '/radios';
   static const String switches = '/switch';
   static const String pageview = '/pageview';
+  static const String listview = '/listview';
 
   static final GoRouter router = GoRouter(
     initialLocation: home,
@@ -36,6 +37,7 @@ class AppRoutes {
       GoRoute(path: radios, builder: (_, _) => const RadiosScreen()),
       GoRoute(path: switches, builder: (_, _) => const SwitchesScreen()),
       GoRoute(path: pageview, builder: (_, _) => const PageViewScreen()),
+      GoRoute(path: listview, builder: (_, _) => const ListViewScreen()),
     ],
     errorBuilder: (_, _) => const NotFoundScreen()
   );

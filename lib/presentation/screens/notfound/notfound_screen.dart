@@ -33,7 +33,7 @@ class NotFoundScreen extends StatelessWidget {
               spacing: 20.0,
               children: [
                 const Image(
-                  image: AssetImage('assets/images/notfound.png'),
+                  image: AssetImage('assets/images/pagenotfound.png'),
                   height: 250,
                 ),
                 ElevatedButton(

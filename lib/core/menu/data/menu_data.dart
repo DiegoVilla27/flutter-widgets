@@ -253,6 +253,12 @@ const Map<String, List<MenuItem>> menu = {
   ],
   "Miscellaneous": [
     MenuItem(
+      title: "Images",
+      subtitle: "How to use Images Widgets",
+      path: "/images",
+      icon: Icons.photo_size_select_actual_rounded,
+    ),
+    MenuItem(
       title: "Infinite Scroll",
       subtitle: "How to use Infinite Scroll Widget",
       path: "/infinitescroll",
