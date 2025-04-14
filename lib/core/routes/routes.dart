@@ -32,6 +32,8 @@ class AppRoutes {
   static const String expanded = '/expanded';
   static const String gridview = '/gridview';
   static const String listtile = '/listtile';
+  static const String wrap = '/wrap';
+  static const String table = '/table';
 
   static final GoRouter router = GoRouter(
     initialLocation: home,
@@ -60,6 +62,8 @@ class AppRoutes {
       GoRoute(path: expanded, builder: (_, _) => const ExpandedScreen()),
       GoRoute(path: gridview, builder: (_, _) => const GridViewScreen()),
       GoRoute(path: listtile, builder: (_, _) => const ListTileScreen()),
+      GoRoute(path: wrap, builder: (_, _) => const WrapScreen()),
+      GoRoute(path: table, builder: (_, _) => const TableScreen()),
     ],
     errorBuilder: (_, _) => const NotFoundScreen()
   );

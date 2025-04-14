@@ -21,6 +21,8 @@ export 'package:flutter_widgets/presentation/screens/stack/stack_screen.dart';
 export 'package:flutter_widgets/presentation/screens/expanded/expanded_screen.dart';
 export 'package:flutter_widgets/presentation/screens/gridview/gridview_screen.dart';
 export 'package:flutter_widgets/presentation/screens/listtile/listtile_screen.dart';
+export 'package:flutter_widgets/presentation/screens/wrap/wrap_screen.dart';
+export 'package:flutter_widgets/presentation/screens/table/table_screen.dart';
 
 // ERROR PAGE
 export 'package:flutter_widgets/presentation/screens/notfound/notfound_screen.dart';
