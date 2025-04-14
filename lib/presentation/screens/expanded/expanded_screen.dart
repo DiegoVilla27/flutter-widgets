@@ -18,7 +18,7 @@ class ExpandedScreen extends StatelessWidget {
   @override
   Widget build(_) {
     return Layout(
-      appBar: const AppBarCustom(title: "Row"),
+      appBar: const AppBarCustom(title: "Expanded"),
       child: Column(
         children: [
           Expanded(
