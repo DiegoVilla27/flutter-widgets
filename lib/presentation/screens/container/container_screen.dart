@@ -16,7 +16,7 @@ class ContainerScreen extends StatelessWidget {
   @override
   Widget build(_) {
     return Layout(
-      appBar: const AppBarCustom(title: "Align"),
+      appBar: const AppBarCustom(title: "Container"),
       child: Container(
         color: Colors.red,
         padding: const EdgeInsets.all(10.0),
