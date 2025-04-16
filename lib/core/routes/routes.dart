@@ -36,6 +36,7 @@ class AppRoutes {
   static const String table = '/table';
   static const String container = '/container';
   static const String sizedbox = '/sizedbox';
+  static const String contrainedbox = '/constrainedbox';
 
   static final GoRouter router = GoRouter(
     initialLocation: home,
@@ -68,6 +69,7 @@ class AppRoutes {
       GoRoute(path: table, builder: (_, _) => const TableScreen()),
       GoRoute(path: container, builder: (_, _) => const ContainerScreen()),
       GoRoute(path: sizedbox, builder: (_, _) => const SizedBoxScreen()),
+      GoRoute(path: contrainedbox, builder: (_, _) => const ConstrainedBoxScreen()),
     ],
     errorBuilder: (_, _) => const NotFoundScreen()
   );
