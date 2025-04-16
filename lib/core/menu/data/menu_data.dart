@@ -114,24 +114,6 @@ const Map<String, List<MenuItem>> menu = {
       path: "/decoratedbox",
       icon: Icons.border_outer,
     ),
-    MenuItem(
-      title: "LimitedBox",
-      subtitle: "How to use LimitedBox Widget",
-      path: "/limitedbox",
-      icon: Icons.satellite,
-    ),
-    MenuItem(
-      title: "AbsorbPointer",
-      subtitle: "How to use AbsorbPointer Widget",
-      path: "/absorbpointer",
-      icon: Icons.touch_app,
-    ),
-    MenuItem(
-      title: "IgnorePointer",
-      subtitle: "How to use IgnorePointer Widget",
-      path: "/ignorepointer",
-      icon: Icons.not_interested,
-    ),
   ],
   "Input & Interaction": [
     MenuItem(
@@ -147,12 +129,6 @@ const Map<String, List<MenuItem>> menu = {
       icon: Icons.text_fields,
     ),
     MenuItem(
-      title: "Radios",
-      subtitle: "How to use Radios Widgets",
-      path: "/radios",
-      icon: Icons.radio_button_checked,
-    ),
-    MenuItem(
       title: "TextField",
       subtitle: "How to use TextField Widget",
       path: "/textfield",
@@ -163,6 +139,12 @@ const Map<String, List<MenuItem>> menu = {
       subtitle: "How to use TextFormField Widget",
       path: "/textformfield",
       icon: Icons.edit,
+    ),
+    MenuItem(
+      title: "Radios",
+      subtitle: "How to use Radios Widgets",
+      path: "/radios",
+      icon: Icons.radio_button_checked,
     ),
     MenuItem(
       title: "Checkbox",
@@ -177,6 +159,12 @@ const Map<String, List<MenuItem>> menu = {
       icon: Icons.switch_left,
     ),
     MenuItem(
+      title: "Buttons",
+      subtitle: "How to use Buttons Widgets",
+      path: "/buttons",
+      icon: Icons.smart_button_outlined,
+    ),
+    MenuItem(
       title: "Slider",
       subtitle: "How to use Slider Widget",
       path: "/slider",
@@ -188,12 +176,6 @@ const Map<String, List<MenuItem>> menu = {
       path: "/rangeslider",
       icon: Icons.date_range,
     ),
-    MenuItem(
-      title: "Buttons",
-      subtitle: "How to use Buttons Widgets",
-      path: "/buttons",
-      icon: Icons.smart_button_outlined,
-    )
   ],
   "Animations & Effects": [
     MenuItem(
@@ -356,4 +338,3 @@ const Map<String, List<MenuItem>> menu = {
     ),
   ],
 };
-

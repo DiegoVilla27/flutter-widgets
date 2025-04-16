@@ -27,6 +27,7 @@ export 'package:flutter_widgets/presentation/screens/container/container_screen.
 export 'package:flutter_widgets/presentation/screens/sizedbox/sizedbox_screen.dart';
 export 'package:flutter_widgets/presentation/screens/constrainedbox/constrainedbox_screen.dart';
 export 'package:flutter_widgets/presentation/screens/decoratedbox/decoratedbox_screen.dart';
+export 'package:flutter_widgets/presentation/screens/textfield/textfield_screen.dart';
 
 // ERROR PAGE
 export 'package:flutter_widgets/presentation/screens/notfound/notfound_screen.dart';

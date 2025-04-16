@@ -38,6 +38,7 @@ class AppRoutes {
   static const String sizedbox = '/sizedbox';
   static const String contrainedbox = '/constrainedbox';
   static const String decoratedbox = '/decoratedbox';
+  static const String textfield = '/textfield';
 
   static final GoRouter router = GoRouter(
     initialLocation: home,
@@ -72,6 +73,7 @@ class AppRoutes {
       GoRoute(path: sizedbox, builder: (_, _) => const SizedBoxScreen()),
       GoRoute(path: contrainedbox, builder: (_, _) => const ConstrainedBoxScreen()),
       GoRoute(path: decoratedbox, builder: (_, _) => const DecoratedBoxScreen()),
+      GoRoute(path: textfield, builder: (_, _) => const TextFieldScreen()),
     ],
     errorBuilder: (_, _) => const NotFoundScreen()
   );
