@@ -34,6 +34,7 @@ class AppRoutes {
   static const String listtile = '/listtile';
   static const String wrap = '/wrap';
   static const String table = '/table';
+  static const String container = '/container';
 
   static final GoRouter router = GoRouter(
     initialLocation: home,
@@ -64,6 +65,7 @@ class AppRoutes {
       GoRoute(path: listtile, builder: (_, _) => const ListTileScreen()),
       GoRoute(path: wrap, builder: (_, _) => const WrapScreen()),
       GoRoute(path: table, builder: (_, _) => const TableScreen()),
+      GoRoute(path: container, builder: (_, _) => const ContainerScreen()),
     ],
     errorBuilder: (_, _) => const NotFoundScreen()
   );

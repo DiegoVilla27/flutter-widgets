@@ -23,6 +23,7 @@ export 'package:flutter_widgets/presentation/screens/gridview/gridview_screen.da
 export 'package:flutter_widgets/presentation/screens/listtile/listtile_screen.dart';
 export 'package:flutter_widgets/presentation/screens/wrap/wrap_screen.dart';
 export 'package:flutter_widgets/presentation/screens/table/table_screen.dart';
+export 'package:flutter_widgets/presentation/screens/container/container_screen.dart';
 
 // ERROR PAGE
 export 'package:flutter_widgets/presentation/screens/notfound/notfound_screen.dart';
