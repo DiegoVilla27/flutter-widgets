@@ -40,6 +40,7 @@ class AppRoutes {
   static const String decoratedbox = '/decoratedbox';
   static const String textfield = '/textfield';
   static const String slider = '/slider';
+  static const String rangeslider = '/rangeslider';
 
   static final GoRouter router = GoRouter(
     initialLocation: home,
@@ -76,6 +77,7 @@ class AppRoutes {
       GoRoute(path: decoratedbox, builder: (_, _) => const DecoratedBoxScreen()),
       GoRoute(path: textfield, builder: (_, _) => const TextFieldScreen()),
       GoRoute(path: slider, builder: (_, _) => const SliderScreen()),
+      GoRoute(path: rangeslider, builder: (_, _) => const RangeSliderScreen()),
     ],
     errorBuilder: (_, _) => const NotFoundScreen()
   );
