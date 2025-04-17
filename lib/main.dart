@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/core/routes/routes_config.dart';
+import 'package:flutter_widgets/core/theme/theme.dart';
 
 void main() {
   runApp(const MainApp());
@@ -8,14 +10,12 @@ class MainApp extends StatelessWidget {
   const MainApp({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
+  Widget build(_) {
+    return MaterialApp.router(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
+      title: "Widgets App",
+      theme: ThemeCustom().get(),
+      routerConfig: AppRoutes.router,
     );
   }
 }
