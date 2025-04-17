@@ -29,7 +29,10 @@ export 'package:flutter_widgets/presentation/screens/constrainedbox/constrainedb
 export 'package:flutter_widgets/presentation/screens/decoratedbox/decoratedbox_screen.dart';
 export 'package:flutter_widgets/presentation/screens/textfield/textfield_screen.dart';
 export 'package:flutter_widgets/presentation/screens/slider/slider_screen.dart';
+export 'package:flutter_widgets/presentation/screens/progress/progress_screen.dart';
 export 'package:flutter_widgets/presentation/screens/rangeslider/rangeslider_screen.dart';
+export 'package:flutter_widgets/presentation/screens/hero/hero_screen.dart';
+export 'package:flutter_widgets/presentation/screens/hero/pages/detail/detail_screen.dart';
 
 // ERROR PAGE
 export 'package:flutter_widgets/presentation/screens/notfound/notfound_screen.dart';

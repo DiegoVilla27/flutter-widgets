@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/core/routes/routes.dart';
+import 'package:flutter_widgets/core/routes/routes_config.dart';
 import 'package:flutter_widgets/core/theme/theme.dart';
 
 void main() {

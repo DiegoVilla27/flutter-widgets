@@ -155,7 +155,7 @@ const Map<String, List<MenuItem>> menu = {
     MenuItem(
       title: "Switches",
       subtitle: "How to use Switches Widget",
-      path: "/switch",
+      path: "/switches",
       icon: Icons.switch_left,
     ),
     MenuItem(
