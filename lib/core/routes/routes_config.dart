@@ -208,6 +208,11 @@ class AppRoutes {
         path: '/scaletransition',
         builder: (_, _) => const ScaleTransitionScreen(),
       ),
+      GoRoute(
+        name: AppRoutesNamed.rotationtransition,
+        path: '/rotationtransition',
+        builder: (_, _) => const RotationTransitionScreen(),
+      ),
     ],
     errorBuilder: (_, _) => const NotFoundScreen(),
   );
