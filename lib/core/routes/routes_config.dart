@@ -213,6 +213,11 @@ class AppRoutes {
         path: '/rotationtransition',
         builder: (_, _) => const RotationTransitionScreen(),
       ),
+      GoRoute(
+        name: AppRoutesNamed.animatedpositioned,
+        path: '/animatedpositioned',
+        builder: (_, _) => const AnimatedPositionedScreen(),
+      ),
     ],
     errorBuilder: (_, _) => const NotFoundScreen(),
   );

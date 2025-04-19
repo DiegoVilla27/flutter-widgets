@@ -203,12 +203,6 @@ const Map<String, List<MenuItem>> menu = {
       icon: Icons.rotate_right,
     ),
     MenuItem(
-      title: "AnimatedSwitcher",
-      subtitle: "How to use AnimatedSwitcher Widget",
-      path: "/animatedswitcher",
-      icon: Icons.switch_video,
-    ),
-    MenuItem(
       title: "AnimatedPositioned",
       subtitle: "How to use AnimatedPositioned Widget",
       path: "/animatedpositioned",

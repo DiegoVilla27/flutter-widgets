@@ -41,6 +41,7 @@ class AppRoutesNamed {
   static const String slidetransition = 'slidetransition';
   static const String scaletransition = 'scaletransition';
   static const String rotationtransition = 'rotationtransition';
+  static const String animatedpositioned = 'animatedpositioned';
   // HERO
   static const String hero = 'hero';
   static const String heroDetails = 'hero_detail';
