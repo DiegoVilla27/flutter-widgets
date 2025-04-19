@@ -218,6 +218,11 @@ class AppRoutes {
         path: '/animatedpositioned',
         builder: (_, _) => const AnimatedPositionedScreen(),
       ),
+      GoRoute(
+        name: AppRoutesNamed.images,
+        path: '/images',
+        builder: (_, _) => const ImagesScreen(),
+      ),
     ],
     errorBuilder: (_, _) => const NotFoundScreen(),
   );

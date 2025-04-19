@@ -185,6 +185,18 @@ const Map<String, List<MenuItem>> menu = {
       icon: Icons.opacity,
     ),
     MenuItem(
+      title: "AnimatedPositioned",
+      subtitle: "How to use AnimatedPositioned Widget",
+      path: "/animatedpositioned",
+      icon: Icons.animation,
+    ),
+    MenuItem(
+      title: "AnimatedContainer",
+      subtitle: "How to use AnimatedContainer Widget",
+      path: "/animatedcontainer",
+      icon: Icons.animation,
+    ),
+    MenuItem(
       title: "SlideTransition",
       subtitle: "How to use SlideTransition Widget",
       path: "/slidetransition",
@@ -201,30 +213,6 @@ const Map<String, List<MenuItem>> menu = {
       subtitle: "How to use RotationTransition Widget",
       path: "/rotationtransition",
       icon: Icons.rotate_right,
-    ),
-    MenuItem(
-      title: "AnimatedPositioned",
-      subtitle: "How to use AnimatedPositioned Widget",
-      path: "/animatedpositioned",
-      icon: Icons.animation,
-    ),
-    MenuItem(
-      title: "FadeTransition",
-      subtitle: "How to use FadeTransition Widget",
-      path: "/fadetransition",
-      icon: Icons.change_circle,
-    ),
-    MenuItem(
-      title: "SizeTransition",
-      subtitle: "How to use SizeTransition Widget",
-      path: "/sizetransition",
-      icon: Icons.fullscreen,
-    ),
-    MenuItem(
-      title: "AnimatedContainer",
-      subtitle: "How to use AnimatedContainer Widget",
-      path: "/animatedcontainer",
-      icon: Icons.animation,
     ),
   ],
   "Miscellaneous": [
