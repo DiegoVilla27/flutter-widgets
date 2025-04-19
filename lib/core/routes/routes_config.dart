@@ -233,6 +233,11 @@ class AppRoutes {
         path: '/tooltip',
         builder: (_, _) => const TooltipScreen(),
       ),
+      GoRoute(
+        name: AppRoutesNamed.bottomsheet,
+        path: '/bottomsheet',
+        builder: (_, _) => const BottomSheetScreen(),
+      ),
     ],
     errorBuilder: (_, _) => const NotFoundScreen(),
   );
