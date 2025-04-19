@@ -243,6 +243,11 @@ class AppRoutes {
         path: '/tabbar',
         builder: (_, _) => const TabBarScreen(),
       ),
+      GoRoute(
+        name: AppRoutesNamed.appbar,
+        path: '/appbar',
+        builder: (_, _) => const AppBarScreen(),
+      ),
     ],
     errorBuilder: (_, _) => const NotFoundScreen(),
   );

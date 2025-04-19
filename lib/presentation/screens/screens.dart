@@ -43,6 +43,7 @@ export 'package:flutter_widgets/presentation/screens/drawer/drawer_screen.dart';
 export 'package:flutter_widgets/presentation/screens/tooltip/tooltip_screen.dart';
 export 'package:flutter_widgets/presentation/screens/bottomsheet/bottomsheet_screen.dart';
 export 'package:flutter_widgets/presentation/screens/tabbar/tabbar_screen.dart';
+export 'package:flutter_widgets/presentation/screens/appbar/appbar_screen.dart';
 
 
 // ERROR PAGE

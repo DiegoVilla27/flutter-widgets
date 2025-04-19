@@ -48,6 +48,7 @@ class AppRoutesNamed {
   static const String tooltip = 'tooltip';
   static const String bottomsheet = 'bottomsheet';
   static const String tabbar = 'tabbar';
+  static const String appbar = 'appbar';
   // HERO
   static const String hero = 'hero';
   static const String heroDetails = 'hero_detail';
