@@ -35,6 +35,7 @@ export 'package:flutter_widgets/presentation/screens/hero/hero_screen.dart';
 export 'package:flutter_widgets/presentation/screens/hero/pages/detail/detail_screen.dart';
 export 'package:flutter_widgets/presentation/screens/animatedopacity/animatedopacity_screen.dart';
 export 'package:flutter_widgets/presentation/screens/slidetransition/slidetransition_screen.dart';
+export 'package:flutter_widgets/presentation/screens/scaletransition/scaletransition_screen.dart';
 
 // ERROR PAGE
 export 'package:flutter_widgets/presentation/screens/notfound/notfound_screen.dart';

@@ -203,6 +203,11 @@ class AppRoutes {
         path: '/slidetransition',
         builder: (_, _) => const SlideTransitionScreen(),
       ),
+      GoRoute(
+        name: AppRoutesNamed.scaletransition,
+        path: '/scaletransition',
+        builder: (_, _) => const ScaleTransitionScreen(),
+      ),
     ],
     errorBuilder: (_, _) => const NotFoundScreen(),
   );
