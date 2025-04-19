@@ -2,6 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_widgets/presentation/shared/widgets/appbar/appbar.dart';
 import 'package:flutter_widgets/presentation/shared/widgets/layout/layout.dart';
 
+/// A stateful widget that represents a screen with a stepper component.
+///
+/// This widget is designed to manage and display a series of steps, allowing
+/// users to navigate through them. It utilizes the `_StepperScreenState` to
+/// maintain its state and handle user interactions.
 class StepperScreen extends StatefulWidget {
   const StepperScreen({super.key});
 
@@ -12,6 +17,11 @@ class StepperScreen extends StatefulWidget {
 class _StepperScreenState extends State<StepperScreen> {
   int _currentStep = 0;
 
+  /// A constant list of `Step` objects representing the steps in a stepper.
+  ///
+  /// Each `Step` includes a title and content, both as `Text` widgets, and is
+  /// marked as active. This list is used to define the sequence and details
+  /// of steps in a stepper component.
   List<Step> steps = const [
     Step(
       title: Text('Step 1'),
