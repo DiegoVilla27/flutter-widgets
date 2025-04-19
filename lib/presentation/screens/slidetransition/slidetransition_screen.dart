@@ -6,7 +6,7 @@ import 'package:flutter_widgets/presentation/shared/widgets/layout/layout.dart';
 /// 
 /// This widget is used to create a screen that transitions with a sliding
 /// animation. It extends [StatefulWidget] and overrides the [createState]
-/// method to return an instance of [_SlideTransitionScreenState].
+/// method to return an instance of [_SlideTransitionScreenState].git 
 class SlideTransitionScreen extends StatefulWidget {
   const SlideTransitionScreen({super.key});
 
