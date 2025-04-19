@@ -248,6 +248,11 @@ class AppRoutes {
         path: '/appbar',
         builder: (_, _) => const AppBarScreen(),
       ),
+      GoRoute(
+        name: AppRoutesNamed.bottomnavigationbar,
+        path: '/bottomnavigationbar',
+        builder: (_, _) => const BottomNavigationBarScreen(),
+      ),
     ],
     errorBuilder: (_, _) => const NotFoundScreen(),
   );

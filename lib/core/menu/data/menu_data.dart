@@ -301,10 +301,10 @@ const Map<String, List<MenuItem>> menu = {
       icon: Icons.view_carousel,
     ),
     MenuItem(
-      title: "Scaffold",
-      subtitle: "How to use Scaffold Widget",
-      path: "/scaffold",
-      icon: Icons.home,
+      title: "Stepper",
+      subtitle: "How to use Stepper Widget",
+      path: "/stepper",
+      icon: Icons.shutter_speed,
     ),
   ],
 };
