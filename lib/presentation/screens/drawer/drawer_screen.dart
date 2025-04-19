@@ -3,14 +3,14 @@ import 'package:go_router/go_router.dart';
 
 /// A stateless widget that represents a screen with a drawer header.
 /// 
-/// The `DrawerHeaderScreen` contains a `Scaffold` with an `AppBar` and a
+/// The `DrawerScreen` contains a `Scaffold` with an `AppBar` and a
 /// `Drawer`. The drawer includes a header with a background image and
 /// gradient overlay, displaying a user's avatar, name, and title. It also
 /// contains navigation options such as 'Home' and 'Settings', which close
 /// the drawer when tapped. The main body of the screen prompts the user
 /// to open the drawer using the menu icon.
-class DrawerHeaderScreen extends StatelessWidget {
-  const DrawerHeaderScreen({super.key});
+class DrawerScreen extends StatelessWidget {
+  const DrawerScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

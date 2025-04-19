@@ -224,9 +224,9 @@ class AppRoutes {
         builder: (_, _) => const ImagesScreen(),
       ),
       GoRoute(
-        name: AppRoutesNamed.drawerheader,
-        path: '/drawerheader',
-        builder: (_, _) => const DrawerHeaderScreen(),
+        name: AppRoutesNamed.drawer,
+        path: '/drawer',
+        builder: (_, _) => const DrawerScreen(),
       ),
       GoRoute(
         name: AppRoutesNamed.tooltip,
@@ -237,6 +237,11 @@ class AppRoutes {
         name: AppRoutesNamed.bottomsheet,
         path: '/bottomsheet',
         builder: (_, _) => const BottomSheetScreen(),
+      ),
+      GoRoute(
+        name: AppRoutesNamed.tabbar,
+        path: '/tabbar',
+        builder: (_, _) => const TabBarScreen(),
       ),
     ],
     errorBuilder: (_, _) => const NotFoundScreen(),

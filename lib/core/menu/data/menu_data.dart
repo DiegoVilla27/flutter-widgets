@@ -247,12 +247,6 @@ const Map<String, List<MenuItem>> menu = {
       icon: Icons.supervised_user_circle,
     ),
     MenuItem(
-      title: "DrawerHeader",
-      subtitle: "How to use DrawerHeader Widget",
-      path: "/drawerheader",
-      icon: Icons.menu,
-    ),
-    MenuItem(
       title: "SnackBar",
       subtitle: "How to use SnackBar Widget",
       path: "/snackbar",
