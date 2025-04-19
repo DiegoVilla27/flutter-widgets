@@ -6,6 +6,11 @@ void main() {
   runApp(const MainApp());
 }
 
+/// A stateless widget that serves as the main entry point for the application.
+/// 
+/// This widget builds a `MaterialApp` configured with a custom theme and
+/// routing configuration. The application does not display the debug banner
+/// and is titled "Widgets App".
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
 

@@ -32,11 +32,26 @@ class AppRoutesNamed {
   static const String table = 'table';
   static const String container = 'container';
   static const String sizedbox = 'sizedbox';
-  static const String contrainedbox = 'constrainedbox';
+  static const String constrainedbox = 'constrainedbox';
   static const String decoratedbox = 'decoratedbox';
   static const String textfield = 'textfield';
   static const String slider = 'slider';
   static const String rangeslider = 'rangeslider';
+  static const String animatedopacity = 'animatedopacity';
+  static const String slidetransition = 'slidetransition';
+  static const String scaletransition = 'scaletransition';
+  static const String rotationtransition = 'rotationtransition';
+  static const String sizetransition = 'sizetransition';
+  static const String animatedpositioned = 'animatedpositioned';
+  static const String images = 'images';
+  static const String drawer = 'drawer';
+  static const String tooltip = 'tooltip';
+  static const String bottomsheet = 'bottomsheet';
+  static const String tabbar = 'tabbar';
+  static const String appbar = 'appbar';
+  static const String bottomnavigationbar = 'bottomnavigationbar';
+  static const String stepper = 'stepper';
+  static const String form = 'form';
   // HERO
   static const String hero = 'hero';
   static const String heroDetails = 'hero_detail';

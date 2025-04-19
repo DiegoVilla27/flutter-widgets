@@ -123,22 +123,10 @@ const Map<String, List<MenuItem>> menu = {
       icon: Icons.document_scanner,
     ),
     MenuItem(
-      title: "FormField",
-      subtitle: "How to use FormField Widget",
-      path: "/formfield",
-      icon: Icons.text_fields,
-    ),
-    MenuItem(
       title: "TextField",
       subtitle: "How to use TextField Widget",
       path: "/textfield",
       icon: Icons.text_fields,
-    ),
-    MenuItem(
-      title: "TextFormField",
-      subtitle: "How to use TextFormField Widget",
-      path: "/textformfield",
-      icon: Icons.edit,
     ),
     MenuItem(
       title: "Radios",
@@ -185,6 +173,18 @@ const Map<String, List<MenuItem>> menu = {
       icon: Icons.opacity,
     ),
     MenuItem(
+      title: "AnimatedPositioned",
+      subtitle: "How to use AnimatedPositioned Widget",
+      path: "/animatedpositioned",
+      icon: Icons.animation,
+    ),
+    MenuItem(
+      title: "AnimatedContainer",
+      subtitle: "How to use AnimatedContainer Widget",
+      path: "/animatedcontainer",
+      icon: Icons.animation,
+    ),
+    MenuItem(
       title: "SlideTransition",
       subtitle: "How to use SlideTransition Widget",
       path: "/slidetransition",
@@ -201,36 +201,6 @@ const Map<String, List<MenuItem>> menu = {
       subtitle: "How to use RotationTransition Widget",
       path: "/rotationtransition",
       icon: Icons.rotate_right,
-    ),
-    MenuItem(
-      title: "AnimatedSwitcher",
-      subtitle: "How to use AnimatedSwitcher Widget",
-      path: "/animatedswitcher",
-      icon: Icons.switch_video,
-    ),
-    MenuItem(
-      title: "AnimatedPositioned",
-      subtitle: "How to use AnimatedPositioned Widget",
-      path: "/animatedpositioned",
-      icon: Icons.animation,
-    ),
-    MenuItem(
-      title: "FadeTransition",
-      subtitle: "How to use FadeTransition Widget",
-      path: "/fadetransition",
-      icon: Icons.change_circle,
-    ),
-    MenuItem(
-      title: "SizeTransition",
-      subtitle: "How to use SizeTransition Widget",
-      path: "/sizetransition",
-      icon: Icons.fullscreen,
-    ),
-    MenuItem(
-      title: "AnimatedContainer",
-      subtitle: "How to use AnimatedContainer Widget",
-      path: "/animatedcontainer",
-      icon: Icons.animation,
     ),
   ],
   "Miscellaneous": [
@@ -265,12 +235,6 @@ const Map<String, List<MenuItem>> menu = {
       icon: Icons.supervised_user_circle,
     ),
     MenuItem(
-      title: "DrawerHeader",
-      subtitle: "How to use DrawerHeader Widget",
-      path: "/drawerheader",
-      icon: Icons.menu,
-    ),
-    MenuItem(
       title: "SnackBar",
       subtitle: "How to use SnackBar Widget",
       path: "/snackbar",
@@ -281,12 +245,6 @@ const Map<String, List<MenuItem>> menu = {
       subtitle: "How to use Tooltip Widget",
       path: "/tooltip",
       icon: Icons.info_outline,
-    ),
-    MenuItem(
-      title: "ScrollController",
-      subtitle: "How to use ScrollController Widget",
-      path: "/scrollcontroller",
-      icon: Icons.refresh,
     ),
     MenuItem(
       title: "BottomSheet",
@@ -331,10 +289,10 @@ const Map<String, List<MenuItem>> menu = {
       icon: Icons.view_carousel,
     ),
     MenuItem(
-      title: "Scaffold",
-      subtitle: "How to use Scaffold Widget",
-      path: "/scaffold",
-      icon: Icons.home,
+      title: "Stepper",
+      subtitle: "How to use Stepper Widget",
+      path: "/stepper",
+      icon: Icons.shutter_speed,
     ),
   ],
 };

@@ -154,8 +154,8 @@ class AppRoutes {
         builder: (_, _) => const SizedBoxScreen(),
       ),
       GoRoute(
-        name: AppRoutesNamed.contrainedbox,
-        path: '/contrainedbox',
+        name: AppRoutesNamed.constrainedbox,
+        path: '/constrainedbox',
         builder: (_, _) => const ConstrainedBoxScreen(),
       ),
       GoRoute(
@@ -192,6 +192,76 @@ class AppRoutes {
             },
           ),
         ],
+      ),
+      GoRoute(
+        name: AppRoutesNamed.animatedopacity,
+        path: '/animatedopacity',
+        builder: (_, _) => const AnimatedOpacityScreen(),
+      ),
+      GoRoute(
+        name: AppRoutesNamed.slidetransition,
+        path: '/slidetransition',
+        builder: (_, _) => const SlideTransitionScreen(),
+      ),
+      GoRoute(
+        name: AppRoutesNamed.scaletransition,
+        path: '/scaletransition',
+        builder: (_, _) => const ScaleTransitionScreen(),
+      ),
+      GoRoute(
+        name: AppRoutesNamed.rotationtransition,
+        path: '/rotationtransition',
+        builder: (_, _) => const RotationTransitionScreen(),
+      ),
+      GoRoute(
+        name: AppRoutesNamed.animatedpositioned,
+        path: '/animatedpositioned',
+        builder: (_, _) => const AnimatedPositionedScreen(),
+      ),
+      GoRoute(
+        name: AppRoutesNamed.images,
+        path: '/images',
+        builder: (_, _) => const ImagesScreen(),
+      ),
+      GoRoute(
+        name: AppRoutesNamed.drawer,
+        path: '/drawer',
+        builder: (_, _) => const DrawerScreen(),
+      ),
+      GoRoute(
+        name: AppRoutesNamed.tooltip,
+        path: '/tooltip',
+        builder: (_, _) => const TooltipScreen(),
+      ),
+      GoRoute(
+        name: AppRoutesNamed.bottomsheet,
+        path: '/bottomsheet',
+        builder: (_, _) => const BottomSheetScreen(),
+      ),
+      GoRoute(
+        name: AppRoutesNamed.tabbar,
+        path: '/tabbar',
+        builder: (_, _) => const TabBarScreen(),
+      ),
+      GoRoute(
+        name: AppRoutesNamed.appbar,
+        path: '/appbar',
+        builder: (_, _) => const AppBarScreen(),
+      ),
+      GoRoute(
+        name: AppRoutesNamed.bottomnavigationbar,
+        path: '/bottomnavigationbar',
+        builder: (_, _) => const BottomNavigationBarScreen(),
+      ),
+      GoRoute(
+        name: AppRoutesNamed.stepper,
+        path: '/stepper',
+        builder: (_, _) => const StepperScreen(),
+      ),
+      GoRoute(
+        name: AppRoutesNamed.form,
+        path: '/form',
+        builder: (_, _) => const FormScreen(),
       ),
     ],
     errorBuilder: (_, _) => const NotFoundScreen(),
