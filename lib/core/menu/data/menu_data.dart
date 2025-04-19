@@ -123,22 +123,10 @@ const Map<String, List<MenuItem>> menu = {
       icon: Icons.document_scanner,
     ),
     MenuItem(
-      title: "FormField",
-      subtitle: "How to use FormField Widget",
-      path: "/formfield",
-      icon: Icons.text_fields,
-    ),
-    MenuItem(
       title: "TextField",
       subtitle: "How to use TextField Widget",
       path: "/textfield",
       icon: Icons.text_fields,
-    ),
-    MenuItem(
-      title: "TextFormField",
-      subtitle: "How to use TextFormField Widget",
-      path: "/textformfield",
-      icon: Icons.edit,
     ),
     MenuItem(
       title: "Radios",

@@ -258,6 +258,11 @@ class AppRoutes {
         path: '/stepper',
         builder: (_, _) => const StepperScreen(),
       ),
+      GoRoute(
+        name: AppRoutesNamed.form,
+        path: '/form',
+        builder: (_, _) => const FormScreen(),
+      ),
     ],
     errorBuilder: (_, _) => const NotFoundScreen(),
   );

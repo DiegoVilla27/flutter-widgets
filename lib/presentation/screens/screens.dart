@@ -46,6 +46,7 @@ export 'package:flutter_widgets/presentation/screens/tabbar/tabbar_screen.dart';
 export 'package:flutter_widgets/presentation/screens/appbar/appbar_screen.dart';
 export 'package:flutter_widgets/presentation/screens/bottomnavigationbar/bottomnavigationbar_screen.dart';
 export 'package:flutter_widgets/presentation/screens/stepper/stepper_screen.dart';
+export 'package:flutter_widgets/presentation/screens/form/form_screen.dart';
 
 
 // ERROR PAGE
