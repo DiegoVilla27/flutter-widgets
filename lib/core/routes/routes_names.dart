@@ -44,6 +44,7 @@ class AppRoutesNamed {
   static const String sizetransition = 'sizetransition';
   static const String animatedpositioned = 'animatedpositioned';
   static const String images = 'images';
+  static const String drawerheader = 'drawerheader';
   // HERO
   static const String hero = 'hero';
   static const String heroDetails = 'hero_detail';

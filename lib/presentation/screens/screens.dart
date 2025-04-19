@@ -39,6 +39,7 @@ export 'package:flutter_widgets/presentation/screens/scaletransition/scaletransi
 export 'package:flutter_widgets/presentation/screens/rotationtransition/rotationtransition_screen.dart';
 export 'package:flutter_widgets/presentation/screens/animatedpositioned/animatedpositioned_screen.dart';
 export 'package:flutter_widgets/presentation/screens/images/images_screen.dart';
+export 'package:flutter_widgets/presentation/screens/drawerheader/drawerheader_screen.dart';
 
 // ERROR PAGE
 export 'package:flutter_widgets/presentation/screens/notfound/notfound_screen.dart';

@@ -223,6 +223,11 @@ class AppRoutes {
         path: '/images',
         builder: (_, _) => const ImagesScreen(),
       ),
+      GoRoute(
+        name: AppRoutesNamed.drawerheader,
+        path: '/drawerheader',
+        builder: (_, _) => const DrawerHeaderScreen(),
+      ),
     ],
     errorBuilder: (_, _) => const NotFoundScreen(),
   );
