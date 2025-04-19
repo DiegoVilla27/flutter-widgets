@@ -253,6 +253,11 @@ class AppRoutes {
         path: '/bottomnavigationbar',
         builder: (_, _) => const BottomNavigationBarScreen(),
       ),
+      GoRoute(
+        name: AppRoutesNamed.stepper,
+        path: '/stepper',
+        builder: (_, _) => const StepperScreen(),
+      ),
     ],
     errorBuilder: (_, _) => const NotFoundScreen(),
   );
