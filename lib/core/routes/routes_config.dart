@@ -154,8 +154,8 @@ class AppRoutes {
         builder: (_, _) => const SizedBoxScreen(),
       ),
       GoRoute(
-        name: AppRoutesNamed.contrainedbox,
-        path: '/contrainedbox',
+        name: AppRoutesNamed.constrainedbox,
+        path: '/constrainedbox',
         builder: (_, _) => const ConstrainedBoxScreen(),
       ),
       GoRoute(
@@ -192,6 +192,11 @@ class AppRoutes {
             },
           ),
         ],
+      ),
+      GoRoute(
+        name: AppRoutesNamed.animatedopacity,
+        path: '/animatedopacity',
+        builder: (_, _) => const AnimatedOpacityScreen(),
       ),
     ],
     errorBuilder: (_, _) => const NotFoundScreen(),
