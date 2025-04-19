@@ -265,12 +265,6 @@ const Map<String, List<MenuItem>> menu = {
       icon: Icons.info_outline,
     ),
     MenuItem(
-      title: "ScrollController",
-      subtitle: "How to use ScrollController Widget",
-      path: "/scrollcontroller",
-      icon: Icons.refresh,
-    ),
-    MenuItem(
       title: "BottomSheet",
       subtitle: "How to use BottomSheet Widget",
       path: "/bottomsheet",

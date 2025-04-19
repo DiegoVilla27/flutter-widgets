@@ -228,6 +228,11 @@ class AppRoutes {
         path: '/drawerheader',
         builder: (_, _) => const DrawerHeaderScreen(),
       ),
+      GoRoute(
+        name: AppRoutesNamed.tooltip,
+        path: '/tooltip',
+        builder: (_, _) => const TooltipScreen(),
+      ),
     ],
     errorBuilder: (_, _) => const NotFoundScreen(),
   );
