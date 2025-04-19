@@ -198,6 +198,11 @@ class AppRoutes {
         path: '/animatedopacity',
         builder: (_, _) => const AnimatedOpacityScreen(),
       ),
+      GoRoute(
+        name: AppRoutesNamed.slidetransition,
+        path: '/slidetransition',
+        builder: (_, _) => const SlideTransitionScreen(),
+      ),
     ],
     errorBuilder: (_, _) => const NotFoundScreen(),
   );

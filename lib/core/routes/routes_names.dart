@@ -38,6 +38,7 @@ class AppRoutesNamed {
   static const String slider = 'slider';
   static const String rangeslider = 'rangeslider';
   static const String animatedopacity = 'animatedopacity';
+  static const String slidetransition = 'slidetransition';
   // HERO
   static const String hero = 'hero';
   static const String heroDetails = 'hero_detail';
